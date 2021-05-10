@@ -1,0 +1,138 @@
+body{
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}a:hover {
+    text-decoration: underline;
+}
+
+html, body{
+    display: flex;
+    flex-direction:column;
+    height: 100%;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.toplink{
+    padding-left: 20px;
+}
+
+.button{
+    margin: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    background: #f8f6f6;
+    border-radius: 2.5px;
+}.button:hover{
+    box-shadow: 0px 3px 5px rgba(0,0,0,0.13), 0 0 5px rgba(0,0,0,0.13);
+}
+
+#navleft{
+    margin-left: 10px;
+}
+
+#navright{
+    margin-right: 30px;
+}
+
+#searcharea{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+}
+
+#logo{
+    text-align: center;
+}
+
+#searchbarcontainer{
+    text-align: center;
+    margin: 20px;
+    position: relative;
+}
+
+#search, #voice{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#search{
+    left: 15px;
+}
+
+#voice{
+    right: 15px;
+}
+
+#searchbar{
+    padding: 15px 50px 15px 50px;
+    font-size: 16px;
+    outline: 0;
+    width: 490px;
+    border-radius: 24px;
+    border: 1px solid #e7e7e7;
+}
+
+#searchbar:hover{
+    box-shadow: 0px 3px 5px rgba(0,0,0,0.13), 0 0 5px rgba(0,0,0,0.13);
+}
+
+#buttons{
+    display: flex;
+    justify-content: center;
+}
+
+#languages{
+    margin-top: 40px;
+    font-size: 14px;
+}
+
+#footer-1{
+    background-color:#eeecec;
+    padding: 15px 15px 15px 30px;
+}
+
+#footer-1-text{
+    color:#838383;
+}
+
+#footer-2{
+    background-color:#eeecec;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: rgb(207, 207, 207);
+    border-width: 0.1px 0px 0px 0px;
+    border-style: solid;
+}
+#footer-2l{
+    display: flex;
+    justify-content:left;
+    margin-left: 75px;
+}
+
+#footer-2r{
+    display: flex;
+    margin-right: 50px;
+}
+
+.bottomlink{
+    margin-right: 50px;
+    font-size: 14px;
+    color:#5e5d5d
+}
