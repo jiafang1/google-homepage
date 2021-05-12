@@ -2,18 +2,21 @@ body{
     margin: 0;
 }
 
+/* Change anchor text to match google's in color and style */
 a {
     text-decoration: none;
 }a:hover {
     text-decoration: underline;
 }
 
+/* adjust page position */
 html, body{
     display: flex;
     flex-direction:column;
     height: 100%;
 }
 
+/* navbar container */
 .nav{
     display: flex;
     justify-content: space-between;
@@ -21,28 +24,22 @@ html, body{
     font-size: 14px;
 }
 
+/* navbar anchors */
 .toplink{
     padding-left: 20px;
 }
 
-.button{
-    margin: 5px;
-    padding: 10px 15px;
-    cursor: pointer;
-    background: #f8f6f6;
-    border-radius: 2.5px;
-}.button:hover{
-    box-shadow: 0px 3px 5px rgba(0,0,0,0.13), 0 0 5px rgba(0,0,0,0.13);
-}
-
+/* left side of navbar */
 #navleft{
     margin-left: 10px;
 }
 
+/*right side of navbar*/
 #navright{
     margin-right: 30px;
 }
 
+/*everything between navbar and footer*/
 #searcharea{
     flex-grow: 1;
     display: flex;
@@ -51,16 +48,19 @@ html, body{
     flex-direction: column; 
 }
 
+/*google logo*/
 #logo{
     text-align: center;
 }
 
+/*container for search bar*/
 #searchbarcontainer{
     text-align: center;
     margin: 20px;
     position: relative;
 }
 
+/*search and voice icons inside searchbar*/
 #search, #voice{
     position: absolute;
     top: 0;
@@ -85,15 +85,25 @@ html, body{
     width: 490px;
     border-radius: 24px;
     border: 1px solid #e7e7e7;
-}
-
-#searchbar:hover{
+}#searchbar:hover{
     box-shadow: 0px 3px 5px rgba(0,0,0,0.13), 0 0 5px rgba(0,0,0,0.13);
 }
 
+/*container for buttons below search bar*/
 #buttons{
     display: flex;
     justify-content: center;
+}
+
+/* buttons below search bar */
+.button{
+    margin: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    background: #f8f6f6;
+    border-radius: 2.5px;
+}.button:hover{
+    box-shadow: 0px 3px 5px rgba(0,0,0,0.13), 0 0 5px rgba(0,0,0,0.13);
 }
 
 #languages{
@@ -101,6 +111,7 @@ html, body{
     font-size: 14px;
 }
 
+/*top footer*/
 #footer-1{
     background-color:#eeecec;
     padding: 15px 15px 15px 30px;
@@ -110,6 +121,7 @@ html, body{
     color:#838383;
 }
 
+/*bottom footer, split between left and right*/
 #footer-2{
     background-color:#eeecec;
     padding: 15px;
@@ -131,6 +143,7 @@ html, body{
     margin-right: 50px;
 }
 
+/*anchors in the bottom footer*/
 .bottomlink{
     margin-right: 50px;
     font-size: 14px;
